@@ -4,13 +4,13 @@ public class Orcamento {
 	private int id;
 	private String data;
 	private String fornecedor;
-	private String produto; 
+	private String produto;
 	private double preco;
-	
+
 	public Orcamento() {
-		
+
 	}
-	
+
 	public Orcamento(int id, String data, String fornecedor, String produto, double preco) {
 		this.id = id;
 		this.data = data;
@@ -18,42 +18,43 @@ public class Orcamento {
 		this.produto = produto;
 		this.preco = preco;
 	}
-	
+
 	public int getId() {
 		return id;
 	}
-	
+
 	public void setId(int id) {
 		this.id = id;
 	}
-	
+
 	public String getData() {
 		return data;
 	}
-	
+
 	public void setData(String data) {
 		this.data = data;
 	}
-	
+
 	public String getFornecedor() {
 		return fornecedor;
 	}
+
 	public void setFornecedor(String fornecedor) {
 		this.fornecedor = fornecedor;
 	}
-	
+
 	public String getProduto() {
 		return produto;
 	}
-	
+
 	public void setProduto(String produto) {
 		this.produto = produto;
 	}
-	
+
 	public double getPreco() {
 		return preco;
 	}
-	
+
 	public void setPreco(double preco) {
 		this.preco = preco;
 	}
@@ -82,9 +83,7 @@ public class Orcamento {
 
 	@Override
 	public String toString() {
-		return id + "\t" + data + "\t" + fornecedor + "\t" + produto
-				+ "\t" + preco + "\n";
+		return id + "\t" + data + "\t" + fornecedor + "\t" + produto + "\t" + preco + "\n";
 	}
-	
 
 }
